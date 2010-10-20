@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+}
+
+img {
+    border: 0;
+}
+
+* {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.a-center {
+    text-align: center;
+}
+
+.a-left {
+    text-align: left;
+}
+
+.a-right {
+    text-align: right;
+}
+
+a.power {
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+}
+
+a.power-on {
+    background: url(../images/ico24status_on.png);
+}
+
+a.power-on:hover {
+    background: url(../images/ico24status_off.png);
+}
+
+a.power-off {
+    background: url(../images/ico24status_off.png);
+}
+
+a.power-off:hover {
+    background: url(../images/ico24status_on.png);
+}
+
+a.power-wait {
+    background: url(../images/ico24status_off.png);
+}
+
+.item {
+    padding: 3px;
+    border-top: 1px solid #F9F9F9;
+}
+
+.item div.title {
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    overflow: hidden;
+    height: 13px;
+}
+
+.item div.ip {
+    display: block;
+    font-size: 10px;
+}
+
+.balance {
+    padding: 3px;
+    font-weight: bold;
+}
